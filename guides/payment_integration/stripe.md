@@ -209,3 +209,4 @@ After login, start stripe listener:
 stripe listen --forward-to localhost:8000/webhooks/stripe/
 ```
 
+That's it. Now you can test the webhook in your local machine.
