@@ -14,6 +14,7 @@ Includes code, tech, soft skills and random deep dives.
 - [Uploading my first API on AWS](guides/Uploading%20my%20first%20API%20on%20AWS.md)
 - [Django REST Framework](guides/Django%20Rest%20Framework.md)
 - [Stripe payment gatewasy integration](guides/payment_integration/stripe.md)
+- [Docker](guides/docker/README.md)
 
 ###
 
