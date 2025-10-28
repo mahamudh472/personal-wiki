@@ -1,6 +1,6 @@
 # Docker 
 
-### Basics 
+## Basics 
 
 | Layer                  | What it represents                                 | Example in Django world                            |
 | ---------------------- | -------------------------------------------------- | -------------------------------------------------- |
@@ -10,7 +10,7 @@
 | **docker-compose.yml** | Orchestrator for multiple containers               | “Kitchen + database + Nginx, all wired together”   |
 
 
-```
+```bash
 myproject/
  ├── Dockerfile
  ├── docker-compose.yml
@@ -22,8 +22,9 @@ myproject/
 ```
 
 Docker flow:
-`Dockerfile  →  docker build  →  Image  →  docker run  →  Container
-`
+```text
+Dockerfile  →  docker build  →  Image  →  docker run  →  Container
+```
 
 ### compose file example `docker-compose.yml`
 
