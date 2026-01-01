@@ -19,5 +19,6 @@ Includes code, tech, soft skills and random deep dives.
 ###
 
 - [Functional features](functional_features/index.md)
+- [Backend Project Checklist](guides/Backend%20Project%20Checklist.md)
 
 Md. Mahmud Hasan
