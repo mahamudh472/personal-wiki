@@ -47,4 +47,29 @@ Tags: Git
 30. git clean -fd – Remove junk files
 
 
+## Commit message idea
+
+| Type       | Purpose                                    |
+| ---------- | ------------------------------------------ |
+| `feat`     | New feature                                |
+| `fix`      | Bug fix                                    |
+| `refactor` | Code restructuring without behavior change |
+| `test`     | Add or modify tests                        |
+| `docs`     | Documentation changes                      |
+| `chore`    | Maintenance tasks, dependencies, configs   |
+| `style`    | Formatting, linting, whitespace            |
+| `perf`     | Performance improvements                   |
+| `ci`       | CI/CD changes                              |
+| `build`    | Build system or dependency changes         |
+
+Example:
+
+```
+feat(auth): add Google login
+fix(redis): reconnect on startup failure
+refactor(users): move validation into service layer
+test(payments): add webhook tests
+ci(github): run coverage checks
+```
+
 > Git bare repo will be added soon...
